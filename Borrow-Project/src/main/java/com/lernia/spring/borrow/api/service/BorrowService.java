@@ -59,12 +59,6 @@ public class BorrowService {
 		return borrows;
 	}
 
-	@Bean
-	public BCryptPasswordEncoder encoder() {
-		return new BCryptPasswordEncoder();
-
-	}
-
 	public void saveMyborrowRequest(Borrow borrow) {
 		DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
 		LocalDateTime now = LocalDateTime.now();

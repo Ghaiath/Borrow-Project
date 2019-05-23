@@ -2,7 +2,6 @@
 	pageEncoding="windows-1256"%>
 <!DOCTYPE html>
 
-<%@ page import="com.lernia.spring.borrow.api.model.User"%>
 <%@ page import="com.lernia.spring.borrow.api.model.Borrow"%>
 <%@ page
 	import="com.lernia.spring.borrow.api.repository.BorrowRepository"%>
